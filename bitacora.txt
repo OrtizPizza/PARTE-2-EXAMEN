@@ -1,0 +1,79 @@
+    1  clear
+    2  cd /home
+    3  mkdir /felix/
+    4  mkdir /felix
+    5  cd
+    6  mkdir home/felix
+    7  mkdir /home/felix
+    8  mkdir /home/felix/
+    9  sudo mkdir /home/felix
+   10  cd home/felix
+   11  cd /home/felix
+   12  tree
+   13  mkdir examen01
+   14  mkdir /examen01
+   15  mkdir /examen01/
+   16  sudo mkdir /examen01
+   17  tree
+   18  sudo chown -R felix:felix /home/felix
+   19  git config --global user.name "Andre Ortiz Torres"
+   20  git config --global user.email "jortizto@unsa.edu.pe"
+   21  sudo adduser git
+   22  sudo mkdir -p /home/felix/exmane01
+   23  sudo mv /home/felix/exmane01 /home/felix/examen01
+   24  sudo chown git:git/home/felix/examen01
+   25  sudo chown git:git/home /felix/examen01
+   26  sudo chown git:git /home/felix/examen01
+   27  tree
+   28  mkdir /home/felix/examen01/pregunta{01..10}
+   29  sudo mkdir /home/felix/examen01/pregunta{01..10}
+   30  tree
+   31  cd examen01
+   32  cat > pregunta01/pregunta1.txt
+   33  sudo chown andre:andre /home/felix/examen01
+   34  cat > pregunta01/pregunta1.txt
+   35  sudo chown andre:andre /home/felix/examen01/pregunta01
+   36  cat > pregunta01/pregunta1.txt
+   37  cat > pregunta01/pregunta2.txt
+   38  cat > pregunta01/pregunta3.txt
+   39  ls -ld /home/felix/examen01/pregunta02
+   40  sudo chown -R andre:andre /home/felix/examen01
+   41  cat > pregunta01/pregunta2.txt
+   42  tree
+   43  cat > pregunta02/pregunta1.txt
+   44  cat > pregunta02/pregunta2.txt
+   45  cat > pregunta02/pregunta3.txt
+   46  cat > pregunta02/pregunta4.txt
+   47  cat > pregunta03/pregunta1.txt
+   48  cat > pregunta03/pregunta2.txt
+   49  cat > pregunta03/pregunta3.txt
+   50  cat > pregunta04/pregunta1.txt
+   51  cat > pregunta04/pregunta2.txt
+   52  cat > pregunta04/pregunta3.txt
+   53  tree
+   54  cat > pregunta05/pregunta1.txt
+   55  cat > pregunta05/pregunta2.txt
+   56  cat > pregunta05/pregunta3.txt
+   57  cat > pregunta06/pregunta1.txt
+   58  cat > pregunta06/pregunta2.txt
+   59  cat > pregunta06/pregunta3.txt
+   60  cat > pregunta07/pregunta1.txt
+   61  cat > pregunta07/pregunta2.txt 
+   62  cat > pregunta07/pregunta3.txt
+   63  cat > pregunta08/pregunta1.txt
+   64  cat > pregunta08/pregunta2.txt
+   65  cat > pregunta08/pregunta3.txt
+   66  cat > pregunta09/pregunta1.txt
+   67  cat > pregunta09/pregunta2.txt
+   68  cat > pregunta09/pregunta3.txt
+   69  cat > pregunta09/pregunta4.txt
+   70  cat > pregunta10/pregunta1.txt
+   71  cat > pregunta10/pregunta2.txt
+   72  cat > pregunta10/pregunta3.txt
+   73  tree
+   74  git init
+   75  git add .
+   76  git commit -m "Primer commit"
+   77  git remote add origin https://github.com/OrtizPizza/Examen-01---Comandos-GIT-y-de-Inicio-en-LinuxMint.git
+   78  git push -u origin master
+   79  history > bitacora.txt
